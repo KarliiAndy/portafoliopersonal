@@ -12,7 +12,7 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: #191c32;
-    color:#fff;
+    color: #fff;
 }
 
 .barra {
@@ -25,7 +25,7 @@ body {
 }
 
 .brand span{
-    color: aqua;
+    color: #EF1BF2;
 }
 
 .menu {
@@ -44,18 +44,19 @@ body {
 }
 
 .menu .activo {
-    color: aqua;
+    color: #DAA0F2;
 }
 
 .menu a:hover {
-    background-color: aqua;
+    background-color: #EF1BF2;
+    border-radius: 10px;
     color: #191c32;    
 }
 
 .main {
     margin: 0 auto;
     width: 80vw;
-    height: 80vh;
+    height: 85vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -66,15 +67,15 @@ h1{
 }
 
 span {
-    color: aqua;
+    color: #1DF2DD;
 }
 
 .descargar {
-    padding: 10px 20px;
-    background-color: aqua;
+    padding: 15px 20px;
+    background-color: #EF1BF2;
     border: none;
     border-radius: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
     cursor: pointer;
 }
 
@@ -84,7 +85,7 @@ span {
 
 .main img{
     width: 450px;
-    border: 7px solid aqua;
+    border: 7px  solid #1DF2DD ;
     height: 450px;
 }
 
@@ -96,11 +97,12 @@ span {
     }
 
 .sobremi img {
-    width: 100%;
+    width: 115%;
+    height: 100%;
     grid-column: 1/5;
 }
 .infosobremi {
-    grid-column: 5/10;
+    grid-column: 6/10;
     padding: 3em;
 }
 
@@ -125,18 +127,47 @@ span {
     width: 100vw;
     padding: 5em;
     background-color: #191c32;
+    color: #fff;
 }
 
 .portafoliocabeza{
-    font-size: 205em;
-}
+    font-size: 1.5em;
+} 
 
 
-.contenedor{
+/* .contenedor{
     width: 80vw;
     height: 80vw;
     margin: 0 auto;
     display: flex;
     justify-content: center;
+} */
+
+.contenedor-contacto {
+    padding: 3em;
+    margin: 0 auto;
+
 }
 
+
+.contacto{
+    width: 100vw;
+    padding: 5em;
+    background-color: #191c32;
+    color: #fff;
+}
+
+.contactoinfo h2 {
+    font-size: 3 em;
+
+}
+
+.contenedor-contacto img{
+    width: 750 px;
+    height: 700 px;
+    bottom: 0px;
+}
+
+.form{
+    
+}
