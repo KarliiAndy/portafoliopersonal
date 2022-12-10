@@ -130,6 +130,23 @@ span {
     color: #fff;
 }
 
+
+
+.card-img-top{
+    background-color: #191c32;
+    width: 318px;
+    height: 700px;
+}
+
+.card-body{
+    background-color:#EF1BF2 ;
+}
+
+.card-body h5{
+    font-size: 2em;
+    color: #191c32;
+}
+
 .portafoliocabeza{
     font-size: 1.5em;
 } 
@@ -188,6 +205,7 @@ span {
 .form textarea {
     height: 150px;
     background: none;
+    justify-content: center;
     color: #fff;
     padding: 1.5em;
     border: 1px solid #ffff ;
@@ -215,9 +233,9 @@ span {
 }
 
 .contenidopie h2 {
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .contenidopie h5 {
-    font-size: 1.5em;
+    font-size: 1em;
 }
