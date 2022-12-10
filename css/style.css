@@ -49,6 +49,94 @@ body {
 
 .menu a:hover {
     background-color: aqua;
-    color: #191c32;
-    
+    color: #191c32;    
 }
+
+.main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+h1{
+    font-size: 3em;
+}
+
+span {
+    color: aqua;
+}
+
+.descargar {
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.descargar:hover {
+    background-color: #fff;
+}
+
+.main img{
+    width: 450px;
+    border: 7px solid aqua;
+    height: 450px;
+}
+
+.sobremi {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    align-items: center;
+    }
+
+.sobremi img {
+    width: 100%;
+    grid-column: 1/5;
+}
+.infosobremi {
+    grid-column: 5/10;
+    padding: 3em;
+}
+
+.infosobremi h2{
+    font-size: 2em;
+    color: #191c32;
+}
+
+.rayita {
+    height: 4px;
+    width: 60px;
+    background-color: aqua;
+    margin-top: 10px;
+    margin-bottom: 2em;
+}
+
+.sobremi p {
+    margin-bottom: 1em;
+}
+
+.portafolio1{
+    width: 100vw;
+    padding: 5em;
+    background-color: #191c32;
+}
+
+.portafoliocabeza{
+    font-size: 205em;
+}
+
+
+.contenedor{
+    width: 80vw;
+    height: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
