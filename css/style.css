@@ -169,5 +169,55 @@ span {
 }
 
 .form{
-    
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+}
+
+.form input {
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+
+}
+
+.form textarea {
+    height: 150px;
+    background: none;
+    color: #fff;
+    padding: 1.5em;
+    border: 1px solid #ffff ;
+
+}
+
+.btn-enviar{
+    padding: 15px 20px;
+    background-color: #EF1BF2;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.pie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    padding: 2em;
+    background-color: aqua;
+}
+
+.contenidopie h2 {
+    font-size: 3em;
+}
+
+.contenidopie h5 {
+    font-size: 1.5em;
 }
